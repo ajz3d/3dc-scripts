@@ -18,28 +18,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-/*
-## ---------------------------------------------------------------------------
-## Script Name                :        ajz_visibilityGroups.txt
-## Version                        :        1.00
-## Created                        :        May 25 2014
-## Last Modification    :        May 28 2014
-## Author                         :        Artur J. Zarek
-## Contact                        :        ajz3dee@gmail.com
-## ---------------------------------------------------------------------------
-## DESCRIPTION: The script will store/restore visibility and ghosting states
-## of volumes in the VoxTree.
-## ---------------------------------------------------------------------------
-*/
+
 // [USER-CUSTOMISABLE VARIABLES]
 // Shows a popup window whenever saved VoxTree is different from the current one.
 const bool showMissingVolumesDialog = false; // Default: false
 // [END OF USER-CUSTOMISABLE VARIABLES]
 
+
 string ajz_vgrps_filePath;
 array<string> ajz_vgrps_layer;
 array<bool> ajz_vgrps_visible;
 array<bool> ajz_vgrps_ghosted;
+
 
 void main(){
     const string windowCaption = "VoxTree Visibility Groups";
@@ -67,17 +57,20 @@ void main(){
     ModalDialog(windowId, windowCaption);
 }
 
+
 array<string> getEmptyArray(array<string> arr){
     while(arr.length() > 0)
         arr.removeLast();
     return arr;
 }
 
+
 array<bool> getEmptyArray(array<bool> arr){
     while(arr.length() > 0)
         arr.removeLast();
     return arr;
 }
+
 
 void storeGroup(){
     //    Clear arrays first
@@ -100,6 +93,7 @@ void storeGroup(){
     SetCurVolume(curVolume);
     ShowFloatingMessage("Done.", 3.0, true);
 }
+
 
 void restoreGroup(){
     string errorLog;
@@ -131,6 +125,7 @@ void restoreGroup(){
     }
 }
 
+
 void saveGroup(){
     if(SaveDialog("visGroups", ajz_vgrps_filePath)){
         string curVolume = GetCurVolume();
@@ -153,12 +148,14 @@ void saveGroup(){
     }
 }
 
+
 bool stringToBoolean(string s){
     if(s == "true")
         return true;
     else    // We are all adults here.
         return false;
 }
+
 
 void loadGroup(){
     string errorLog;
@@ -214,6 +211,8 @@ void loadGroup(){
         SetCurVolume(curVolume);
     }
 }
+
+
 void displayMissingVolumesDialog(){
     const string ID = """
 Some volumes were missing.
