@@ -2,6 +2,7 @@
 // ===== Merge down voxtree layer
 //
 // This source file is part of the 3dc-scripts project.
+// https://github.com/ajz3d/3dc-scripts/
 //
 // Copyright (c) 2014 - 2017 Artur J. Żarek
 //
