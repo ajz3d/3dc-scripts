@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+ <ExtraMenuItem>
+  <MenuPath>Voxels</MenuPath>
+  <MenuItem>Multiple Res+</MenuItem>
+  <Command>script:Scripts/ExtraMenuItems/multi_res_plus.cpp</Command>
+ </ExtraMenuItem>
+</ClassArray.ExtraMenuItem>
