@@ -3,8 +3,8 @@ This is a set of workflow-enhancing 3D Coat scripts that not only can save some 
 
 ## Installation
 ### MS Windows
-1. Clone or download the respository to your storage device.
-2. Unpack the contents of ```.\ExtraMenuItems``` directory from the archive to ```%USERPROFILE%\Documents\3D-CoatV48\Scripts\ExtraMenuItems\``` path (of course, replace ```3D-CoatV48``` with your current 3DC config directory name). Create this path if it doesn't exist.
+1. Clone or download the repository to your storage device.
+2. Unpack the contents of ```.\ExtraMenuItems``` directory from the archive to ```%USERPROFILE%\Documents\3D-CoatV48\Scripts\ExtraMenuItems\``` path (of course, replace ```3D-CoatV48``` with your current 3DC configuration directory name). Create this path if it doesn't exist.
 
 ## Scripts
 ### Export to Separate Files
@@ -25,7 +25,7 @@ The script is accessible through *Retopo➝Hide all* and *Retopo➝Show all*.
 ### Isolate to/Move Back from UV-Set
 Two scripts that might be very useful when unwrapping a model for texturing. If your asset consists of multiple retopo groups, managing and inspecting its UVs can be problematic because the puny human perception makes catching wrongly unwrapped islands a very time consuming and error-prone process when those islands are located in a forest of wrapped garbage.
 
-Isolating to UV-Set will move all visibile retopo groups to a UV-set called *isolatedUVSet*. UVs will be automatically auto-scaled within that set in sake of better visibility. Unwrap the mesh and launch the *Move back from isolation* script.
+Isolating to UV-Set will move all visible retopo groups to a UV-set called *isolatedUVSet*. UVs will be automatically auto-scaled within that set in sake of better visibility. Unwrap the mesh and launch the *Move back from isolation* script.
 
 *Move back from isolation* will move all geometry from *isolatedUVSet* back to UV set called the *default* and *Auto Scale* this whole set. Initially I wanted to store the origin UV set of each isolated geometry in some variable, but it turned out that it is impossible to determine via scripting to which UV set a visible retopo groups belongs to. So this is a limitation of this script for now: a UV set called *default* **must** be present in the retopo room. Otherwise the move operation will fail and the geometry will stay in the *isolatedUVSet*.
 
@@ -53,7 +53,7 @@ The script is accessible through *Geometry➝Show all*.
 ### VoxTree Merge Down
 Similar to Photoshop's merge down command, but with some differences. It will merge the next VoxTree object to a currently selected one. The new object will retain the name of the latter. **Caution!** All proxied VoxTree objects will be restored to their original, non-proxy state, before the merge operation is performed.
 
-The script is accesible through *Geometry➝Merge down*.
+The script is accessible through *Geometry➝Merge down*.
 
 ### VoxTree Visibility States
 If you, like me, like to keep several versions and backups of your sculptures in the VoxTree hierarchy, and then at some point get lost in what should stay hidden and what should be made visible, try this script. It allows to store visibility states of all VoxTree objects temporarily (over a current 3D Coat session) or save them to file in order to restore them after you get some well deserved sleep.
