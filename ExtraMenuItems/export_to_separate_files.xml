@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+ <ExtraMenuItem>
+  <MenuPath>File.Export</MenuPath>
+  <MenuItem>To Separate Files</MenuItem>
+  <Command>script:Scripts/ExtraMenuItems/export_to_separate_files.cpp</Command>
+ </ExtraMenuItem>
+</ClassArray.ExtraMenuItem>

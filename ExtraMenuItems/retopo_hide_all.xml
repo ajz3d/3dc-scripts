@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+ <ExtraMenuItem>
+  <MenuPath>Retopo</MenuPath>
+  <MenuItem>Hide all</MenuItem>
+  <Command>script:Scripts/ExtraMenuItems/retopo_hide_all.cpp</Command>
+ </ExtraMenuItem>
+</ClassArray.ExtraMenuItem>

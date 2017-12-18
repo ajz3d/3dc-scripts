@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+    <ExtraMenuItem>
+        <MenuPath>View</MenuPath>
+        <MenuItem>Load/Save VoxTree visibility states</MenuItem>
+        <Command>script:Scripts/ExtraMenuItems/visibility_states.cpp</Command>
+    </ExtraMenuItem>
+</ClassArray.ExtraMenuItem>

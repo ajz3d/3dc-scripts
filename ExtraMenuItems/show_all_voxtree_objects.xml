@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+ <ExtraMenuItem>
+  <MenuPath>Voxels</MenuPath>
+  <MenuItem>Show all</MenuItem>
+  <Command>script:Scripts/ExtraMenuItems/show_all_voxtree_objects.cpp</Command>
+ </ExtraMenuItem>
+</ClassArray.ExtraMenuItem>
