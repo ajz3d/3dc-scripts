@@ -51,7 +51,7 @@ It does what it says it does - it sets all VoxTree objects to a visible state.
 The script is accessible through *Geometry➝Show all*.
 
 ### VoxTree Merge Down
-Similar to Photoshop's merge down command, but with some differences. It will merge the next VoxTree object to currently selected one. The new object will retain the name of the latter. **Caution!** All proxied VoxTree objects will be restored to their original, non-proxy state, before the merge operation is performed.
+Similar to Photoshop's merge down command, but with some differences. It will merge the next VoxTree object to a currently selected one. The new object will retain the name of the latter. **Caution!** All proxied VoxTree objects will be restored to their original, non-proxy state, before the merge operation is performed.
 
 The script is accesible through *Geometry➝Merge down*.
 
