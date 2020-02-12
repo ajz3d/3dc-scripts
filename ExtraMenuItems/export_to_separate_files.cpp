@@ -62,7 +62,7 @@ void main(){
         if(!CurVolumeIsEmpty() && GetVolumeVisibility()){
             ShowFloatingMessage(msgProcessing + GetCurVolume(), messageDurationLong, false);
             SetFileForFileDialogs(targetPath + GetCurVolume() + fileExtension);
-            cmd("$ExportObject");
+            cmd("$ExportSelObject");
         } else{
             ShowFloatingMessage(msgIgnoring + GetCurVolume(), messageDurationLong, false);
         }
