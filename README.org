@@ -56,7 +56,9 @@ Sculpt room's /Freeze/ tool is great for masking areas that you don't want to af
 
 The script is accessible through /Geometry➝Multi-smooth pose/freeze/
 
-** Show All VoxTree Objects
+** (Deprecated) Show All VoxTree Objects
+*Deprecated:* Use 3D Coat's built-in command called /Show All Hidden Volumes/, which can be found in RMB context menu of /SculpTree/ window.
+
 It does what it says it does --- it sets all VoxTree objects to a visible state.
 
 The script is accessible through /Geometry➝Show all/.
