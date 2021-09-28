@@ -3,6 +3,8 @@
 * 3D Coat Scripts
 This is a set of workflow-enhancing 3D Coat scripts that can save some of your time spent on tasks that are tedious or repetitive.
 
+*Note:* Scripts are not ready for 3D Coat 2021 yet.
+
 * Installation
 ** GNU/Linux
 Make sure that ~COAT_FILES_PATH~ environment variable is set and points to directory containing your 3D Coat user preferences. For example: ~COAT_FILES_PATH=$HOME/.config/3dcoat~.
