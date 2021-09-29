@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+	<ExtraMenuItem>
+		<MenuPath>Freeze</MenuPath>
+		<MenuItem>Smooth/Sharpen Freeze</MenuItem>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/blushfr.cpp</Command>
+	</ExtraMenuItem>
+</ClassArray.ExtraMenuItem>
