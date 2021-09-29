@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+	<ExtraMenuItem>
+		<MenuPath>Voxels</MenuPath>
+		<MenuItem>Smooth Pose Selection(n)</MenuItem>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/smoothpsn.cpp</Command>
+	</ExtraMenuItem>
+</ClassArray.ExtraMenuItem>
