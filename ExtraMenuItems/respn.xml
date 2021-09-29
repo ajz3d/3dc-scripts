@@ -2,6 +2,6 @@
 	<ExtraMenuItem>
 		<MenuPath>Voxels</MenuPath>
 		<MenuItem>Res+(n)</MenuItem>
-		<Command>script:UserPrefs/Scripts/ExtraMenuItems/multi_res_plus.as</Command>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/respn.cpp</Command>
 	</ExtraMenuItem>
 </ClassArray.ExtraMenuItem>
