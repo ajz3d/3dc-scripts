@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+	<ExtraMenuItem>
+		<MenuPath>Retopo</MenuPath>
+		<MenuItem>Isolate Visible to UV-Set</MenuItem>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/rgisolate.cpp</Command>
+	</ExtraMenuItem>
+</ClassArray.ExtraMenuItem>
