@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+	<ExtraMenuItem>
+		<MenuPath>Retopo</MenuPath>
+		<MenuItem>Hide All Groups</MenuItem>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/rghideall.cpp</Command>
+	</ExtraMenuItem>
+</ClassArray.ExtraMenuItem>

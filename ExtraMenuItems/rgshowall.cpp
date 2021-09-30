@@ -1,9 +1,9 @@
-// ===== retopo_show_all.cpp
+// ===== rgshowall.cpp
 // ===== Show all retopo groups
 //
 // This source file is part of the 3dc-scripts project.
 //
-// Copyright (c) 2014 - 2017 Artur J. Żarek
+// Copyright (c) 2014 - 2021 Artur J. Żarek
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,12 +17,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-void main(){
-    string currentLayer = GetCurrentRetopoLayerName();
-    SelectFirstRetopoLayer(false);
-    do{
-        SetRetopoLayerVisibility(true);
-    } while(SelectNextRetopoLayer(false));
-    SelectRetopoLayer(currentLayer);
-    Step(1);
+void main()
+{
+        string layer = GetCurrentRetopoLayerName();
+        SelectFirstRetopoLayer(false);
+        do
+                SetRetopoLayerVisibility(true);
+        while(SelectNextRetopoLayer(false));
+        SelectRetopoLayer(layer);
 }
