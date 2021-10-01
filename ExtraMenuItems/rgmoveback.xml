@@ -1,0 +1,7 @@
+<ClassArray.ExtraMenuItem>
+	<ExtraMenuItem>
+		<MenuPath>Retopo</MenuPath>
+		<MenuItem>Move Back from Isolated UV-Set</MenuItem>
+		<Command>script:UserPrefs/Scripts/ExtraMenuItems/rgmoveback.cpp</Command>
+	</ExtraMenuItem>
+</ClassArray.ExtraMenuItem>

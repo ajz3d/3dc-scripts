@@ -1,7 +1,0 @@
-<ClassArray.ExtraMenuItem>
- <ExtraMenuItem>
-  <MenuPath>Retopo</MenuPath>
-  <MenuItem>Move back from isolation</MenuItem>
-  <Command>script:Scripts/ExtraMenuItems/retopo_group_move_back.cpp</Command>
- </ExtraMenuItem>
-</ClassArray.ExtraMenuItem>
